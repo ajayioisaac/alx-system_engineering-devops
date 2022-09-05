@@ -1,1 +1,1 @@
-This is a file for shell redirections
+This program prints out hello world
