@@ -1,4 +1,4 @@
-#!/usr/bin/env bashi
+#!/usr/bin/env bash
 
 # Generate RSA key pair with 4096 bits and the given passphrase
 ssh-keygen -t rsa -b 4096 -P betty -f school
