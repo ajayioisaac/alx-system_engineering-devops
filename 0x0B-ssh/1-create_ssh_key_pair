@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-# Bash script that creates an RSA key pair.
 
-ssh-keygen -t rsa -b 4096 -P betty -f school
+# Generate RSA key pair with 4096 bits and the given passphrase
+ssh-keygen -t rsa -b 4096 -N betty -f school
+
+# Display the generated public key
+echo "Public key:"
+cat school.pub
