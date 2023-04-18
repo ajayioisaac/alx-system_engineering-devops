@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 -- Create user to check DB status 
 -- Run on the master server
 

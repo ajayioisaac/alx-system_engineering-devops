@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 -- Create db on the master server
 CREATE DATABASE IF NOT EXISTS tyrell_corp;
 
